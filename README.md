@@ -1,6 +1,6 @@
 ### Discord bot to control a minecraft server
--[x] Absolutely WIP  
--[x] Absolutely cancer code  
+- [x] Absolutely WIP  
+- [x] Absolutely cancer code  
 
 ## Requires
 `secrets.ini` file with the following content:  
