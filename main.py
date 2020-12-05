@@ -56,4 +56,8 @@ async def stop(ctx):
         await ctx.send('Server not is running!')
 
 
+@bot.command()
+async def status(ctx):
+    await ctx.send('Server Running!' if check_server_running() else 'Server Down!')
+
 bot.run(config['secrets']['token'])
